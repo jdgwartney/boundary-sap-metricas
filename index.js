@@ -1,7 +1,7 @@
 var net = require('net');
 var HOST = '127.0.0.1';
 var PORT = 6100;
-var _interval = parseInt(process.argv[1]) || 250;
+var _interval = parseInt(process.argv[1]) || 125;
 var claves = ['M00'];
 var idxI = 0;
 
