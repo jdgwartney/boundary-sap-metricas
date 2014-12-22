@@ -32,7 +32,7 @@ function poll()
 	});
 	
 	client.on('end', function() {
-		console.log('client disconnected\r\n');
+		//console.log('client disconnected\r\n');
 	});
 	
 	setTimeout(poll, _interval);
