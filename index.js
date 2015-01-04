@@ -3,7 +3,7 @@ var HOST = '127.0.0.1';
 var PORT = 6100;
 // 125 = 8 por segundo
 // 62 = 16 por segundo
-var _interval = parseInt(process.argv[1]) || 125;
+var _interval = parseInt(process.argv[1]) || 50;
 var claves = ['M00'];
 var idxI = 0;
 
